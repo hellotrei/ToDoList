@@ -13,7 +13,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary">
 
-            <com.pinkal.todolist.customfont.Button
+            <com.klp.todolist.customfont.Button
                 android:id="@+id/btnBackManageCategory"
                 android:layout_width="40dp"
                 android:layout_height="58dp"
@@ -21,7 +21,7 @@
                 android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
                 android:drawableTint="@color/white" />
 
-            <com.pinkal.todolist.customfont.TextView
+            <com.klp.todolist.customfont.TextView
                 android:id="@+id/toolbar_title_manage_category"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                     android:focusable="true"
                     android:focusableInTouchMode="true" />
 
-                <com.pinkal.todolist.customfont.TextInputLayout
+                <com.klp.todolist.customfont.TextInputLayout
                     android:id="@+id/textInput_addCategory"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp">
 
-                    <com.pinkal.todolist.customfont.TextInputEditText
+                    <com.klp.todolist.customfont.TextInputEditText
                         android:id="@+id/edtAddCategory"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -79,9 +79,9 @@
                         android:inputType="textCapSentences"
                         android:paddingLeft="15dp" />
 
-                </com.pinkal.todolist.customfont.TextInputLayout>
+                </com.klp.todolist.customfont.TextInputLayout>
 
-                <com.pinkal.todolist.customfont.Button
+                <com.klp.todolist.customfont.Button
                     android:id="@+id/btnAddCategory"
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"

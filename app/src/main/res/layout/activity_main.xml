@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.pinkal.todolist.activity.ToDoActivity">
+    tools:context="com.klp.todolist.activity.ToDoActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                 app:popupTheme="@style/AppTheme.PopupOverlay">
 
 
-                <com.pinkal.todolist.customfont.TextView
+                <com.klp.todolist.customfont.TextView
                     android:id="@+id/toolbar_title_main"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
                 android:layout_height="match_parent"
                 android:scrollbars="none" />
 
-            <com.pinkal.todolist.customfont.TextView
+            <com.klp.todolist.customfont.TextView
                 android:id="@+id/txtNoTask"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

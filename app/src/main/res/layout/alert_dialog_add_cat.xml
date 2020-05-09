@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-    <com.pinkal.todolist.customfont.TextView
+    <com.klp.todolist.customfont.TextView
         android:id="@+id/txtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         android:textColor="@color/colorPrimary"
         android:textSize="18dp" />
 
-    <com.pinkal.todolist.customfont.EditText
+    <com.klp.todolist.customfont.EditText
         android:id="@+id/edtAddUpdateAddCat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,6 +27,6 @@
         android:inputType="textCapSentences"
         android:paddingLeft="5dp">
 
-    </com.pinkal.todolist.customfont.EditText>
+    </com.klp.todolist.customfont.EditText>
 
 </LinearLayout>

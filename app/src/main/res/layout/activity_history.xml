@@ -19,7 +19,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary">
 
-                <com.pinkal.todolist.customfont.Button
+                <com.klp.todolist.customfont.Button
                     android:id="@+id/btnBackHistory"
                     android:layout_width="40dp"
                     android:layout_height="58dp"
@@ -27,7 +27,7 @@
                     android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
                     android:drawableTint="@color/white" />
 
-                <com.pinkal.todolist.customfont.TextView
+                <com.klp.todolist.customfont.TextView
                     android:id="@+id/toolbar_title_history"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
                 android:layout_height="match_parent"
                 android:scrollbars="none" />
 
-            <com.pinkal.todolist.customfont.TextView
+            <com.klp.todolist.customfont.TextView
                 android:id="@+id/txtNoHistory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

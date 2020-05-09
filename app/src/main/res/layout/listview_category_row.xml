@@ -12,7 +12,7 @@
         android:paddingRight="5dp"
         android:paddingTop="5dp">
 
-        <com.pinkal.todolist.customfont.TextView
+        <com.klp.todolist.customfont.TextView
             android:id="@+id/txtCategoryName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             android:textColor="@color/darkGray"
             android:textSize="18dp" />
 
-        <com.pinkal.todolist.customfont.Button
+        <com.klp.todolist.customfont.Button
             android:id="@+id/btnCatEdit"
             android:layout_width="30dp"
             android:layout_height="40dp"
@@ -35,7 +35,7 @@
             android:drawableRight="@drawable/ic_mode_edit_black_24dp"
             android:drawableTint="@color/darkGray" />
 
-        <com.pinkal.todolist.customfont.Button
+        <com.klp.todolist.customfont.Button
             android:id="@+id/btnCatDelete"
             android:layout_width="30dp"
             android:layout_height="40dp"
