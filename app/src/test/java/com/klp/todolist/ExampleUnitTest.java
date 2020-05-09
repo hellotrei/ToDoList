@@ -1,4 +1,4 @@
-package com.pinkal.todolist;
+package com.klp.todolist;
 
 import org.junit.Test;
 
