@@ -31,7 +31,7 @@
                 app:popupTheme="@style/AppTheme.PopupOverlay">
 
 
-                <com.klp.todolist.customfont.TextView
+                <com.pinkal.todolist.customfont.TextView
                     android:id="@+id/toolbar_title_drawerMain"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

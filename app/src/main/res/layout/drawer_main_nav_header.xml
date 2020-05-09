@@ -20,7 +20,7 @@
         android:paddingTop="16dp"
         android:src="@mipmap/ic_launcher" />
 
-    <com.klp.todolist.customfont.TextView
+    <com.pinkal.todolist.customfont.TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"

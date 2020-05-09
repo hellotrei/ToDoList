@@ -1,10 +1,17 @@
 apply plugin: 'com.android.application'
 
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}
 android {
     compileSdkVersion 23
     buildToolsVersion '25.0.0'
     defaultConfig {
-        applicationId "com.klp.todolist"
+        applicationId "com.pinkal.todolist"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
@@ -26,7 +33,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:23.4.0'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:design:23.4.0'
     compile 'se.emilsjolander:stickylistheaders:2.7.0'
     compile 'com.github.bumptech.glide:glide:3.7.0'
 }
